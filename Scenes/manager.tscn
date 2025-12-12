@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dr6xd2v3u4h8p"]
+
+[ext_resource type="Script" uid="uid://cesy3hnnbwli0" path="res://Scripts/manager.gd" id="1_ewkdb"]
+
+[node name="Manager" type="Node2D"]
+script = ExtResource("1_ewkdb")
+
+[node name="InitText" type="Label" parent="."]
+offset_left = 323.0
+offset_top = 241.0
+offset_right = 873.0
+offset_bottom = 406.0
+theme_override_font_sizes/font_size = 50
+text = "Press Space to init trial"
+horizontal_alignment = 1
+vertical_alignment = 1
